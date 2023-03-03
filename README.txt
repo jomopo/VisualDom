@@ -1,0 +1,26 @@
+Package's name: VisualDom 
+
+Title: Visualize Dominant Variables in Wavelet Multiple Correlation 
+
+Version: 0.8.0
+
+Author: Josué M. Polanco-Martínez (josue.m.polanco@gmail.com)
+
+Maintainer: Josué M. Polanco-Martínez <josue.m.polanco@gmail.com>
+
+Depends: R (>= 3.6.0), waveslim, wavemulcor, plot3D
+
+Description: Estimates and plots as a heat map the correlation coefficients obtained via the wavelet local multiple correlation 'WLMC' (Fernández-Macho 2018) and the 'dominant' variable/s, i.e., the variable/s that maximizes the multiple correlation through time and scale (Polanco-Martínez et al. 2020, Polanco-Martínez 2022). We improve the graphical outputs of WLMC proposing a didactic and useful way to visualize the 'dominant' variable(s) for a set of time series. The WLMC was designed for financial time series, but other kinds of data (e.g., climatic, ecological, etc.) can be used. The functions contained in 'VisualDom' are highly flexible since these contains several parameters to personalize the time series under analysis and the heat maps. In addition, we have also included two data sets (named 'rdata_climate' and 'rdata_Lorenz') to exemplify the use of the functions contained in 'VisualDom'. Methods derived from Fernández-Macho (2018) <doi:10.1016/j.physa.2017.11.050>, Polanco-Martínez et al. (2020) <doi:10.1038/s41598-020-77767-8> and Polanco-Martínez (2023, in press). 
+
+License: GPL (>= 2)
+
+Repository: CRAN
+
+Encoding: UTF-8
+
+LazyData: true
+
+Date/Publication: 2022-12-2X
+
+NeedsCompilation: no
+

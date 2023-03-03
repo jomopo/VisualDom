@@ -1,0 +1,5 @@
+importFrom("waveslim", "modwt", "brick.wall") 
+importFrom("wavemulcor", "wave.local.multiple.correlation")
+importFrom("plot3D", "image2D")
+importFrom("graphics", "axis", "layout", "mtext", "par", "plot")
+exportPattern("^[[:alpha:]]+")
